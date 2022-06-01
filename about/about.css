@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  font-family: sans-serif;
+}
+/* .logo {
+      position: absolute;
+      top: 40px;
+      left: 40px;
+    } */
+
+.heading-text {
+  position: absolute;
+  top: 20px;
+  left: 100px;
+
+  text-transform: uppercase;
+}
+
+.heading-first {
+  color: rgba(4, 55, 112);
+  display: block;
+  /* display: inline; */
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 5px;
+}
+
+.heading-second {
+  font-weight: 300;
+}
+
+.top-number {
+  position: absolute;
+  top: 50px;
+  left: 1200px;
+}
+
+.top-number p {
+  color: black;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.top-navbar {
+  /* position: relative; */
+  height: 40px;
+  background-image: linear-gradient(to right, rgba(4, 55, 112), black);
+}
+.top-navbar a {
+  font-size: 26px;
+  font-weight: 500;
+  padding-left: 40px;
+}
+.about {
+  background-image: linear-gradient(rgba(4, 55, 112), black);
+}
+.about-desc {
+  width: 500px;
+  position: absolute;
+  top: 300px;
+  left: 100px;
+}
+
+.about-desc h1 {
+  font-size: 52px;
+  font-weight: 700;
+  color: rgba(4, 55, 112);
+}
+
+.about-desc p {
+  padding-top: 15px;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: justify;
+}
+
+.about-bk {
+  position: absolute;
+  top: 300px;
+  left: 700px;
+}
+
+.about-bk img {
+  height: 300px;
+  width: 700px;
+}

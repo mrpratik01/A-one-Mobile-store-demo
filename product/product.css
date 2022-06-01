@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  font-family: sans-serif;
+}
+/* .logo {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+  } */
+
+.heading-text {
+  position: absolute;
+  top: 20px;
+  left: 100px;
+
+  text-transform: uppercase;
+}
+
+.heading-first {
+  color: rgba(4, 55, 112);
+  display: block;
+  /* display: inline; */
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 5px;
+}
+
+.heading-second {
+  font-weight: 300;
+}
+
+.top-number {
+  position: absolute;
+  top: 50px;
+  left: 1200px;
+}
+
+.top-number p {
+  color: black;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.top-navbar {
+  /* position: relative; */
+  height: 40px;
+  background-image: linear-gradient(to right, rgba(4, 55, 112), black);
+}
+.top-navbar a {
+  font-size: 26px;
+  font-weight: 500;
+  padding-left: 40px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background: white;
+  width: 400px;
+  height: 2000px;
+  margin: 10px;
+  border-radius: 15px;
+}
+
+.card h2 {
+  color: rgb(255, 255, 255);
+  justify-items: center;
+  padding: 15px;
+}
+.card p {
+  color: aliceblue;
+  padding: 15px;
+}
+.card-image {
+  background-color: rgba(4, 55, 112);
+  height: 450px;
+  margin-bottom: 150px;
+  background-size: cover;
+}
+/* 
+.card-1 {
+  background-image: url(../card-1.jpeg);
+}
+
+.card-2 {
+  background-image: url(../card-2.jpeg);
+}
+
+.card-3 {
+  background-image: url(../card-3.png);
+} */
